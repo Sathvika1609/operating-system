@@ -15,5 +15,5 @@ int main()
     pthread_create(&thread_id, NULL, myThreadFun, NULL);
     pthread_join(thread_id, NULL);
     printf("After Thread\n");
-    exit(0);
+    exit(0); 
 }
